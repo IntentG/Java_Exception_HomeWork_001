@@ -19,7 +19,7 @@ public static ArrayList<Integer> differenceArray(int[] a1, int[] a2) {
             int min = Math.min(a1.length, a2.length);
             int max = Math.max(a1.length, a2.length);
             if (min < 1) {
-                throw new RuntimeException("один из массивов пуст");
+                throw new RuntimeException("Один из массивов пуст");
             }
             if (min < max) {
                 throw new RuntimeException("Длинны массивов не равны!");
